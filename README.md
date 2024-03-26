@@ -1,7 +1,9 @@
 # I want to make this program behave similarly to the classic printf. I'm having trouble making the outputs the same for both ./a.out and ./a.out | cat -e.
-![photo_5771881991204093841_y](https://github.com/buggcatcher/my_printf/assets/163436093/f26d30e4-1eaa-48c5-b363-dcbbb27de0b5)
+
 At first, when running ./a.out, the terminal displays the expected result. My ft_printf matches the output of the classic printf.
 Then, when piping ./a.out | cat -e, something weird happens.
+![photo_5771881991204093841_y](https://github.com/buggcatcher/my_printf/assets/163436093/f26d30e4-1eaa-48c5-b363-dcbbb27de0b5)
+
 
 I would like to understand the reason for such behavior.
 
