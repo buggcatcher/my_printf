@@ -6,7 +6,7 @@
 #    By: mailinci <mailinci@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/21 15:41:05 by mailinci          #+#    #+#              #
-#    Updated: 2024/03/24 21:08:22 by mailinci         ###   ########.fr        #
+#    Updated: 2024/03/27 18:03:01 by mailinci         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,12 +15,7 @@ CC = cc
 CFLAGS = -Wall -Werror -Wextra
 DEPS := ft_printf.h
 CFILES :=	ft_printf.c \
-			ft_puthexmempf.c \
-			ft_putcharpf.c \
-			ft_puthexnbrpf.c \
-			ft_putnbrpf.c \
-			ft_putstrpf.c \
-			ft_vcheck.c \
+			ft_putfx.c	\
 		
 OFILES = $(CFILES:.c=.o)
 
