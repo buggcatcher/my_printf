@@ -46,13 +46,13 @@ void	ft_vcheck(const char v, va_list ptr, int *c)
 /*
 int main(void)
 {
-	// char c = 'c';
-	// char *str = "lorem ipsum";
-	// int n = 777;
-	// int *b = &n;
-	// unsigned long ind = 2147483647;
-	// int orig_func;
-	// int my_func;
+	char c = 'c';
+	char *str = "lorem ipsum";
+	int n = 777;
+	int *b = &n;
+	unsigned long ind = 2147483647;
+	int orig_func;
+	int my_func;
 	char *y = NULL;
 	int *x = NULL;
 	int *p = 0;
